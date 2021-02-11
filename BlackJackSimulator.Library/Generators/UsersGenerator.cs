@@ -7,8 +7,8 @@ using System.Text;
 namespace BlackJackSimulator.Library.Generators
 {
     public interface IUsersGenerator
-    { 
-    
+    {
+        List<Player> Generate(int amount);
     }
 
     public class PlayerGenerator : IUsersGenerator
